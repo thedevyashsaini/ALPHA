@@ -1,0 +1,41 @@
+2023-06-10 20:02:51,198 - DEBUG - Starting new HTTPS connection (1): mypage.devyashsaini.repl.co:443
+2023-06-10 20:02:52,016 - DEBUG - https://mypage.devyashsaini.repl.co:443 "GET /API.txt HTTP/1.1" 200 165
+2023-06-10 20:02:52,024 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-06-10 20:02:54,743 - DEBUG - Starting new HTTPS connection (1): mypage.devyashsaini.repl.co:443
+2023-06-10 20:02:55,248 - DEBUG - https://mypage.devyashsaini.repl.co:443 "GET /API.txt HTTP/1.1" 200 165
+2023-06-10 20:02:55,248 - DEBUG - Encoding detection: ascii is most likely the one.
+2023-06-10 20:03:52,848 - INFO - Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-06-10 20:03:52,848 - DEBUG - Executing process: C:\Users\dysai\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json --debug
+2023-06-10 20:03:53,584 - DEBUG - Using shell command to find out chrome version
+2023-06-10 20:03:53,584 - DEBUG - Running command: "wmic datafile where name='%PROGRAMFILES:\\=\\\\%\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe' get Version /value"
+2023-06-10 20:03:53,584 - DEBUG - Output: "\r\r\n\r\r\nVersion=114.0.5735.110\r\r\n\r\r\n\r\r\n\r"
+2023-06-10 20:03:53,584 - DEBUG - The version of chrome is 114.0.5735.110
+2023-06-10 20:03:53,584 - DEBUG - Detected browser: chrome 114
+2023-06-10 20:03:53,584 - DEBUG - Required driver: chromedriver 114.0.5735.90
+2023-06-10 20:03:53,584 - DEBUG - Running command: "chromedriver --version"
+2023-06-10 20:03:53,584 - DEBUG - Output: ""
+2023-06-10 20:03:53,584 - DEBUG - chromedriver 114.0.5735.90 already in the cache
+2023-06-10 20:03:53,584 - DEBUG - Using driver at: C:\Users\dysai\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-06-10 20:03:53,600 - DEBUG - Started executable: `C:\Users\dysai\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe` in a child process with pid: 13084
+2023-06-10 20:03:54,111 - DEBUG - POST http://localhost:52068/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--disable-logging", "--log-level=3", "--log-path=/dev/null"]}}}}
+2023-06-10 20:03:54,111 - DEBUG - Starting new HTTP connection (1): localhost:52068
+2023-06-10 20:03:55,203 - DEBUG - http://localhost:52068 "POST /session HTTP/1.1" 200 860
+2023-06-10 20:03:55,211 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"114.0.5735.110","chrome":{"chromedriverVersion":"114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})","userDataDir":"C:\\Users\\dysai\\AppData\\Local\\Temp\\scoped_dir13084_318480408"},"goog:chromeOptions":{"debuggerAddress":"localhost:52071"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"55f05024b965eaca3eebab7b9f34c8bf"}} | headers=HTTPHeaderDict({'Content-Length': '860', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-06-10 20:03:55,211 - DEBUG - Finished Request
+2023-06-10 20:03:55,211 - DEBUG - POST http://localhost:52068/session/55f05024b965eaca3eebab7b9f34c8bf/url {"url": "https://libgen.li/index.php?req=48%20laws%20of%20power&columns%5B%5D=t&columns%5B%5D=a&objects%5B%5D=f&objects%5B%5D=e&objects%5B%5D=s&objects%5B%5D=a&objects%5B%5D=p&objects%5B%5D=w&topics%5B%5D=l&topics%5B%5D=c&topics%5B%5D=f&topics%5B%5D=a&topics%5B%5D=m&topics%5B%5D=r&topics%5B%5D=s&res=25&covers=on&filesuns=all"}
+2023-06-10 20:04:06,248 - DEBUG - http://localhost:52068 "POST /session/55f05024b965eaca3eebab7b9f34c8bf/url HTTP/1.1" 200 14
+2023-06-10 20:04:06,248 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-06-10 20:04:06,248 - DEBUG - Finished Request
+2023-06-10 20:04:06,248 - DEBUG - POST http://localhost:52068/session/55f05024b965eaca3eebab7b9f34c8bf/element {"using": "css selector", "value": "[id=\"tablelibgen\"]"}
+2023-06-10 20:04:06,280 - DEBUG - http://localhost:52068 "POST /session/55f05024b965eaca3eebab7b9f34c8bf/element HTTP/1.1" 200 95
+2023-06-10 20:04:06,280 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"D525E1BB0D43F558569A5D1944324F84_element_74"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-06-10 20:04:06,280 - DEBUG - Finished Request
+2023-06-10 20:04:06,280 - DEBUG - GET http://localhost:52068/session/55f05024b965eaca3eebab7b9f34c8bf/source {}
+2023-06-10 20:04:06,312 - DEBUG - http://localhost:52068 "GET /session/55f05024b965eaca3eebab7b9f34c8bf/source HTTP/1.1" 200 105313
+2023-06-10 20:04:06,868 - DEBUG - Finished Request
+2023-06-10 20:04:06,965 - DEBUG - DELETE http://localhost:52068/session/55f05024b965eaca3eebab7b9f34c8bf {}
+2023-06-10 20:04:06,988 - DEBUG - http://localhost:52068 "DELETE /session/55f05024b965eaca3eebab7b9f34c8bf HTTP/1.1" 200 14
+2023-06-10 20:04:06,988 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-06-10 20:04:06,988 - DEBUG - Finished Request2023-06-10 20:05:23,427 - DEBUG - Starting new HTTPS connection (1): mypage.devyashsaini.repl.co:443
+2023-06-10 20:05:23,780 - DEBUG - https://mypage.devyashsaini.repl.co:443 "GET /API.txt HTTP/1.1" 200 165
+2023-06-10 20:05:23,780 - DEBUG - Encoding detection: ascii is most likely the one.

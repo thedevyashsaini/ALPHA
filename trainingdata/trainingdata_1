@@ -1,0 +1,652 @@
+[
+    [
+        "create a file named testing.txt in downloads",
+        {
+            "intent": [
+                "create_file"
+            ],
+            "entities": [
+                [
+                    "testing.txt",
+                    "file_name"
+                ],
+                [
+                    "downloads",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "please create a file new.py on desktop",
+        {
+            "intent": [
+                "create_file"
+            ],
+            "entities": [
+                [
+                    "new.py",
+                    "file_name"
+                ],
+                [
+                    "desktop",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "make a file something.js in downloads",
+        {
+            "intent": [
+                "create_file"
+            ],
+            "entities": [
+                [
+                    "something.js",
+                    "file_name"
+                ],
+                [
+                    "downloads",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "create a folder named testing in downloads",
+        {
+            "intent": [
+                "create_folder"
+            ],
+            "entities": [
+                [
+                    "testing",
+                    "folder_name"
+                ],
+                [
+                    "downloads",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "make a folder something in downloads",
+        {
+            "intent": [
+                "create_folder"
+            ],
+            "entities": [
+                [
+                    "something",
+                    "folder_name"
+                ],
+                [
+                    "downloads",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "please open notepad",
+        {
+            "intent": [
+                "open_app"
+            ],
+            "entities": [
+                [
+                    "notepad",
+                    "app_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "open telegram",
+        {
+            "intent": [
+                "open_app"
+            ],
+            "entities": [
+                [
+                    "telegram",
+                    "app_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "please open app notepad",
+        {
+            "intent": [
+                "open_app"
+            ],
+            "entities": [
+                [
+                    "notepad",
+                    "app_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "close notepad",
+        {
+            "intent": [
+                "close_app"
+            ],
+            "entities": [
+                [
+                    "notepad",
+                    "app_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "please close telegram",
+        {
+            "intent": [
+                "close_app"
+            ],
+            "entities": [
+                [
+                    "telegram",
+                    "app_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "please close brave for me",
+        {
+            "intent": [
+                "close_app"
+            ],
+            "entities": [
+                [
+                    "brave",
+                    "app_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "please mute my PC",
+        {
+            "intent": [
+                "mute"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "can you mute my PC",
+        {
+            "intent": [
+                "mute"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "mute",
+        {
+            "intent": [
+                "mute"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "unmute",
+        {
+            "intent": [
+                "unmute"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "please unmute my PC",
+        {
+            "intent": [
+                "unmute"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "please can you unmute my PC",
+        {
+            "intent": [
+                "unmute"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "please reboot my PC",
+        {
+            "intent": [
+                "reboot"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "please restart my PC",
+        {
+            "intent": [
+                "reboot"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "restart",
+        {
+            "intent": [
+                "reboot"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "reboot",
+        {
+            "intent": [
+                "reboot"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "please shutdown my PC",
+        {
+            "intent": [
+                "shutdown"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "shutdown",
+        {
+            "intent": [
+                "shutdown"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "create a file test.html",
+        {
+            "intent": [
+                "create_file"
+            ],
+            "entities": [
+                [
+                    "test.html",
+                    "file_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "create a folder testingalpha",
+        {
+            "intent": [
+                "create_folder"
+            ],
+            "entities": [
+                [
+                    "testingalpha",
+                    "folder_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "rename the file test.py to testing.py on desktop",
+        {
+            "intent": [
+                "rename_file"
+            ],
+            "entities": [
+                [
+                    "test.py",
+                    "old_name"
+                ],
+                [
+                    "testing.py",
+                    "new_name"
+                ],
+                [
+                    "desktop",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "please rename to folder first to second in downloads",
+        {
+            "intent": [
+                "rename_folder"
+            ],
+            "entities": [
+                [
+                    "first",
+                    "old_name"
+                ],
+                [
+                    "second",
+                    "new_name"
+                ],
+                [
+                    "downloads",
+                    "filefolderlocation"
+                ]
+            ]
+        }
+    ],
+    [
+        "rename the file test.py to testing.py",
+        {
+            "intent": [
+                "rename_file"
+            ],
+            "entities": [
+                [
+                    "test.py",
+                    "old_name"
+                ],
+                [
+                    "testing.py",
+                    "new_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "please rename the folder old to new",
+        {
+            "intent": [
+                "rename_folder"
+            ],
+            "entities": [
+                [
+                    "old",
+                    "old_name"
+                ],
+                [
+                    "new",
+                    "new_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "download links for ghosted movie",
+        {
+            "intent": [
+                "search_movie"
+            ],
+            "entities": [
+                [
+                    "ghosted",
+                    "movie_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "where can I downlaod harry potter",
+        {
+            "intent": [
+                "search_movie"
+            ],
+            "entities": [
+                [
+                    "harry potter",
+                    "movie_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "download interstellar movie",
+        {
+            "intent": [
+                "search_movie"
+            ],
+            "entities": [
+                [
+                    "interstellar",
+                    "movie_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "find devyash saini on insintentram",
+        {
+            "intent": [
+                "find_person"
+            ],
+            "entities": [
+                [
+                    "insintentram",
+                    "app_name"
+                ],
+                [
+                    "devyash saini",
+                    "person_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hritik roshan on facebook",
+        {
+            "intent": [
+                "find_person"
+            ],
+            "entities": [
+                [
+                    "facebook",
+                    "app_name"
+                ],
+                [
+                    "Hritik roshan",
+                    "person_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "find pranali on google",
+        {
+            "intent": [
+                "find_person"
+            ],
+            "entities": [
+                [
+                    "google",
+                    "app_name"
+                ],
+                [
+                    "pranali",
+                    "person_name"
+                ]
+            ]
+        }
+    ],
+    [
+        "what is the weather condition in nadbai?",
+        {
+            "intent": [
+                "get_weather"
+            ],
+            "entities": [
+                [
+                    "nadbai",
+                    "location"
+                ]
+            ]
+        }
+    ],
+    [
+        "tell me about weather in delhi",
+        {
+            "intent": [
+                "get_weather"
+            ],
+            "entities": [
+                [
+                    "delhi",
+                    "location"
+                ]
+            ]
+        }
+    ],
+    [
+        "what is the temperature in rajasthan",
+        {
+            "intent": [
+                "get_weather"
+            ],
+            "entities": [
+                [
+                    "rajasthan",
+                    "location"
+                ]
+            ]
+        }
+    ],
+    [
+        "tell me about weather",
+        {
+            "intent": [
+                "get_weather"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "what is the weather",
+        {
+            "intent": [
+                "get_weather"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "play some music",
+        {
+            "intent": [
+                "play_music"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "please tell me about weather in dubai",
+        {
+            "intent": [
+                "get_weather"
+            ],
+            "entities": [
+                [
+                    "dubai",
+                    "location"
+                ]
+            ]
+        }
+    ],
+    [
+        "please play music",
+        {
+            "intent": [
+                "play_music"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "start some music",
+        {
+            "intent": [
+                "play_music"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "play latest music",
+        {
+            "intent": [
+                "play_music"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "yes",
+        {
+            "intent": [
+                "confirmation"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "yeah",
+        {
+            "intent": [
+                "confirmation"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "ya sure",
+        {
+            "intent": [
+                "confirmation"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "yes please",
+        {
+            "intent": [
+                "confirmation"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "that goes without saying",
+        {
+            "intent": [
+                "confirmation"
+            ],
+            "entities": []
+        }
+    ],
+    [
+        "definitely",
+        {
+            "intent": [
+                "confirmation"
+            ],
+            "entities": []
+        }
+    ]
+]

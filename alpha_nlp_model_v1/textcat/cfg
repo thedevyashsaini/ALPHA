@@ -1,0 +1,22 @@
+{
+  "labels":[
+    "open_app",
+    "close_app",
+    "mute",
+    "unmute",
+    "reboot",
+    "shutdown",
+    "create_file",
+    "rename_file",
+    "create_folder",
+    "rename_folder",
+    "search_movie",
+    "search_book",
+    "find_person",
+    "get_weather",
+    "play_music",
+    "confirmation",
+    "denial"
+  ],
+  "threshold":0.5
+}
